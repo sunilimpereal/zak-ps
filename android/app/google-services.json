@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "988618093987",
+    "firebase_url": "https://zoos-of-karnataka.firebaseio.com",
+    "project_id": "zoos-of-karnataka",
+    "storage_bucket": "zoos-of-karnataka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988618093987:android:a829e63aeb2fa9a6ac9616",
+        "android_client_info": {
+          "package_name": "com.kimzuka.zakapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988618093987-kt4pv6tp55ah2j2mod61mumb143pd9fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJpFLfe0aLj0W4RJP3wkiiRIDumpfNIaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988618093987-kt4pv6tp55ah2j2mod61mumb143pd9fm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "988618093987-e8ius7n82pahuksdtp257s3idqa617lu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kimzuka.zakapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
