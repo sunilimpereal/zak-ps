@@ -1,0 +1,4 @@
+#Tue Mar 08 07:44:07 IST 2022
+base.0=D\:\\downloads\\zak\\zak-mobile-fix-ticket_issues\\zak_mobile_app\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

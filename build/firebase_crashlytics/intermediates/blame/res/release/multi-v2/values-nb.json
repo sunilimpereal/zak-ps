@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\downloads\\zak\\zak-mobile-fix-ticket_issues\\zak_mobile_app\\build\\firebase_crashlytics\\intermediates\\res\\merged\\release\\values-nb\\values-nb.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sunil\\.gradle\\caches\\transforms-2\\files-2.1\\d5f0d7c59abceb9bdf25d02b57423df7\\core-1.6.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endColumns": "100",
+                        "endOffsets": "390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sunil\\.gradle\\caches\\transforms-2\\files-2.1\\acc928a0fcbc71b2677bbafab96b2a1f\\jetified-play-services-basement-17.0.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\downloads\\zak\\zak-mobile-fix-ticket_issues\\zak_mobile_app\\build\\firebase_crashlytics\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-nb\\values-nb.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sunil\\.gradle\\caches\\transforms-2\\files-2.1\\d5f0d7c59abceb9bdf25d02b57423df7\\core-1.6.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endColumns": "100",
+                        "endOffsets": "390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sunil\\.gradle\\caches\\transforms-2\\files-2.1\\acc928a0fcbc71b2677bbafab96b2a1f\\jetified-play-services-basement-17.0.0\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

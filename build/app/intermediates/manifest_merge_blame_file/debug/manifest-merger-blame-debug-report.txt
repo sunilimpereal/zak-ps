@@ -1,0 +1,335 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kimzuka.zakapp"
+4    android:versionCode="8"
+5    android:versionName="1.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\3c17ece0e0bbce0b9b61889e0c2dd867\play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\3c17ece0e0bbce0b9b61889e0c2dd867\play-services-measurement-api-20.0.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:9:5-49:19
+20        android:name="io.flutter.app.FlutterApplication"
+20-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:10:9-57
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\d5f0d7c59abceb9bdf25d02b57423df7\core-1.6.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:12:9-43
+24        android:label="Zoos of Karnataka" >
+24-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:11:9-42
+25        <activity
+25-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:14:9-43:20
+26            android:name="com.kimzuka.zakapp.MainActivity"
+26-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:15:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:18:13-163
+28            android:hardwareAccelerated="true"
+28-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:16:13-43
+30            android:screenOrientation="portrait"
+30-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:20:13-49
+31            android:theme="@style/LaunchTheme"
+31-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:17:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:21:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:26:13-29:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:27:15-70
+42                android:resource="@style/NormalTheme" />
+42-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:28:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:35:13-38:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:36:15-79
+52                android:resource="@drawable/launch_background" />
+52-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:37:15-61
+53
+54            <intent-filter>
+54-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:39:13-42:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:40:17-68
+55-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:41:17-76
+57-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:41:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:46:9-48:33
+65            android:name="flutterEmbedding"
+65-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:47:13-44
+66            android:value="2" />
+66-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:48:13-30
+67
+68        <service
+68-->[:firebase_crashlytics] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:firebase_crashlytics] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:31:13-37
+72            <meta-data
+72-->[:firebase_crashlytics] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+73-->[:firebase_crashlytics] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-130
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_crashlytics] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_crashlytics\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_remote_config] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_remote_config\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+76-->[:firebase_remote_config] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_remote_config\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-139
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_remote_config] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_remote_config\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_core] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+79-->[:firebase_core] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+82-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:33:17-117
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-config:21.0.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\6174ca6feba4acf60fc93a75c509ba9d\firebase-config-21.0.1\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\7be782c4bd6374edd2fb5854f161381e\firebase-crashlytics-18.2.4\AndroidManifest.xml:18:13-20:85
+85                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+85-->[com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\7be782c4bd6374edd2fb5854f161381e\firebase-crashlytics-18.2.4\AndroidManifest.xml:19:17-115
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\7be782c4bd6374edd2fb5854f161381e\firebase-crashlytics-18.2.4\AndroidManifest.xml:20:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\3c17ece0e0bbce0b9b61889e0c2dd867\play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\3c17ece0e0bbce0b9b61889e0c2dd867\play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\3c17ece0e0bbce0b9b61889e0c2dd867\play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\fe7a61170f8280ea7dc3a2d78c4747d9\firebase-abt-21.0.0\AndroidManifest.xml:13:13-15:85
+91                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+91-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\fe7a61170f8280ea7dc3a2d78c4747d9\firebase-abt-21.0.0\AndroidManifest.xml:14:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\fe7a61170f8280ea7dc3a2d78c4747d9\firebase-abt-21.0.0\AndroidManifest.xml:15:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1bba98416c329f2b9b1214892f6cb6eb\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+94                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+94-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1bba98416c329f2b9b1214892f6cb6eb\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1bba98416c329f2b9b1214892f6cb6eb\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+96        </service>
+97
+98        <provider
+98-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+99            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
+99-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-81
+100            android:authorities="com.kimzuka.zakapp.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
+100-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-110
+101            android:exported="false"
+101-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+102            android:grantUriPermissions="true" >
+102-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+103            <meta-data
+103-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:72
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+105                android:resource="@xml/esys_flutter_share_filepaths" />
+105-->[:esys_flutter_share] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-69
+106        </provider>
+107
+108        <activity
+108-->[:url_launcher_android] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+109            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+109-->[:url_launcher_android] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+110            android:exported="false"
+110-->[:url_launcher_android] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+111            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+111-->[:url_launcher_android] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+112        <activity
+112-->[:razorpay_flutter] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:20
+113            android:name="com.razorpay.CheckoutActivity"
+113-->[:razorpay_flutter] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-57
+114            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+114-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:20:13-83
+115            android:label="Razorpay Checkout"
+115-->[:razorpay_flutter] D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-46
+116            android:theme="@style/CheckoutTheme" >
+116-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:21:13-49
+117            <intent-filter>
+117-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:22:13-28:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:40:17-68
+118-->D:\downloads\zak\zak-mobile-fix-ticket_issues\zak_mobile_app\android\app\src\main\AndroidManifest.xml:40:25-66
+119
+120                <data
+120-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:25:17-27:47
+121                    android:host="rzp.io"
+121-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:26:21-42
+122                    android:scheme="io.rzp" />
+122-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:27:21-44
+123            </intent-filter>
+124        </activity>
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+128            android:authorities="com.kimzuka.zakapp.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b80040f63bfe6a146a9c61a8612eeada\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+132
+133        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+133-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:12:9-16:20
+133-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:12:19-63
+134            <intent-filter>
+134-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:13:13-15:29
+135                <action android:name="rzp.device_token.share" />
+135-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:14:17-65
+135-->[com.razorpay:checkout:1.6.10] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e74b46769de5a41a063dfbfa2fcecdc3\checkout-1.6.10\AndroidManifest.xml:14:25-62
+136            </intent-filter>
+137        </receiver>
+138
+139        <activity
+139-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+140            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+140-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+141            android:excludeFromRecents="true"
+141-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+144        <!--
+145            Service handling Google Sign-In user revocation. For apps that do not integrate with
+146            Google Sign-In, this service will never be started.
+147        -->
+148        <service
+148-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+149            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+149-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+150            android:exported="true"
+150-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+151            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+151-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\b9dff67daa5bf3e1295766505dc144e1\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\d06d56e87defd0396d22f5dd9f993687\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\d06d56e87defd0396d22f5dd9f993687\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\d06d56e87defd0396d22f5dd9f993687\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\d06d56e87defd0396d22f5dd9f993687\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+157
+158        <receiver
+158-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
+159            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+159-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
+161            android:exported="false" >
+161-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
+162        </receiver>
+163
+164        <service
+164-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
+165            android:name="com.google.android.gms.measurement.AppMeasurementService"
+165-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
+167            android:exported="false" />
+167-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
+168        <service
+168-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
+169            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+169-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
+172            android:permission="android.permission.BIND_JOB_SERVICE" />
+172-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\ce73fbee449398dcaa69f8ee6d0ea16e\play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
+173
+174        <meta-data
+174-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\2429a58a202964089b4d291fc0221d9e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+175            android:name="com.google.android.gms.version"
+175-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\2429a58a202964089b4d291fc0221d9e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\2429a58a202964089b4d291fc0221d9e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+177
+178        <service
+178-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+179            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+179-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+180            android:exported="false" >
+180-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+181            <meta-data
+181-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+182                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+182-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+183                android:value="cct" />
+183-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\e5a0ccdef0bf1dde47e16b71f478aef4\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+184        </service>
+185        <service
+185-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+186-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+187            android:exported="false"
+187-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+188            android:permission="android.permission.BIND_JOB_SERVICE" >
+188-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+189        </service>
+190
+191        <receiver
+191-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+192            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+192-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+193            android:exported="false" />
+193-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\sunil\.gradle\caches\transforms-2\files-2.1\1066f4fdf09d97891cc029c710a3cca8\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+194    </application>
+195
+196</manifest>

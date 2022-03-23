@@ -13,8 +13,8 @@ class Response {
 
   Response({@required this.didSucceed, @required this.object, @required this.responseMessage});
 }
-  var backendURL = 'http://awszts.afroaves.com:8080/api/v2/'; 
-
+  // var backendURL = 'http://zts.afroaves.com:8080/api/v2/'; 
+var backendURL = 'http://3.110.92.216:8000/api/v2/'; 
 Future<Response> postRequest(
     {String accessToken,
     String api,
@@ -23,7 +23,8 @@ Future<Response> postRequest(
     int successStatusCode}) async {
   var didSucceed = false;
   var message = genericErrorMessage;
-  var backendURL = 'http://awszts.afroaves.com:8080/api/v2/'; 
+ //var backendURL = 'http://zts.afroaves.com:8080/api/v2/'; 
+     var backendURL = 'http://3.110.92.216:8000/api/v2/'; 
   final url = backendURL + api;
   dynamic decodedResponseBody;
   final headers = {contentTypeKey: applicationJSONTypeKey};

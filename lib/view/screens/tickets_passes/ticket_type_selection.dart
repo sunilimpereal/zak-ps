@@ -40,7 +40,7 @@ class TicketTypeSelectionScreen extends StatelessWidget {
             child: ZooOverviewCard(
               buttonTitle: 'Book Now',
               subtitle: 'For touring the zoo in a battery operated vehicle',
-              title: 'Safari Ticket',
+              title: 'E-Vehicle Ticket',
               onPressed: () {
                 Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => SelectVehicle(zoo)

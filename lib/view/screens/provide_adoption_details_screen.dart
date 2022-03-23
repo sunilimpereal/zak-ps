@@ -183,7 +183,7 @@ class _ProvideAdoptionDetailsScreenState
                                 setState(() {});
                               },
                               validator: (String text) {
-                                if (!EmailValidator.validate(text)) {
+                                if (!EmailValidator.validate(text.trim())) {
                                   return 'Please enter a valid email address';
                                 }
                                 return null;
@@ -229,30 +229,30 @@ class _ProvideAdoptionDetailsScreenState
                           )
                         ],
                       )),
-                  'Do you want your details (name and city) to be displayed on a board next to animal enclosure?'
-                      .withStyle(
-                          style: subtitleTextStyle(FontWeight.w500),
-                          color: ZAKDarkGreen),
-                  Row(
-                    children: <Widget>[
-                      ZAKRadioButton(
-                          onPressed: () {
-                            setState(() {
-                              displayName = false;
-                            });
-                          },
-                          title: 'No',
-                          isSelected: !displayName),
-                      ZAKRadioButton(
-                          onPressed: () {
-                            setState(() {
-                              displayName = true;
-                            });
-                          },
-                          title: 'Yes',
-                          isSelected: displayName),
-                    ],
-                  ),
+                  // 'Do you want your details (name and city) to be displayed on a board next to animal enclosure?'
+                  //     .withStyle(
+                  //         style: subtitleTextStyle(FontWeight.w500),
+                  //         color: ZAKDarkGreen),
+                  // Row(
+                  //   children: <Widget>[
+                  //     ZAKRadioButton(
+                  //         onPressed: () {
+                  //           setState(() {
+                  //             displayName = false;
+                  //           });
+                  //         },
+                  //         title: 'No',
+                  //         isSelected: !displayName),
+                  //     ZAKRadioButton(
+                  //         onPressed: () {
+                  //           setState(() {
+                  //             displayName = true;
+                  //           });
+                  //         },
+                  //         title: 'Yes',
+                  //         isSelected: displayName),
+                  //   ],
+                  // ),
                 ],
               ),
             ),
@@ -263,7 +263,7 @@ class _ProvideAdoptionDetailsScreenState
               Padding(
                 padding: const EdgeInsets.only(bottom: 40, top: 123),
                 child: ZAKButton(
-                  onPressed: (EmailValidator.validate(_emailController.text) &&
+                  onPressed: (EmailValidator.validate(_emailController.text.trim()) &&
                           _nameController.text.isNotEmpty &&
                           _cityController.text.isNotEmpty &&
                           _emailController.text.isNotEmpty &&
